@@ -52,15 +52,15 @@ div-nav{
     align-items: center;
 }
 .img-main{
-    width: 90%;
+    width: 80%;
 }
 .div-main{
     width: 100%;
     display: flex;
     flex-direction: column;
     background-image: url(imagenes/divprincipal.png);
-
-    background-size: cover;
+    background-position: center;
+    background-size:cover;
     /* display: flex;
     align-items: flex-start;
     justify-content: center; */
@@ -87,7 +87,9 @@ main{
 }
 .btn-signup{
     margin-right: 30px;
-    background-color: (26,127,55);
+    background-color: #1A7F37;
+    color:white;
+    font-family:'Mona sans', sans-serif;
 }
 .a-trycopilot{
     margin-left: 30px;
