@@ -102,3 +102,53 @@ main{
 video{
     width:90%;
 }
+.div-aft-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.ul-div-aft-main{
+    display: flex;
+    justify-content: space-around;
+    width:682px;
+    height: 56px;
+    border-radius: 15px;
+    /* border-color: white; */
+    border: 3px solid white;
+}
+.carrusel {
+    display: flex; /* Usamos flexbox para colocar las imágenes en una fila */
+    overflow: hidden; /* Ocultamos las imágenes que están fuera del área visible */
+    width: 100%; /* Aseguramos que ocupe todo el ancho disponible */
+}
+
+.img-carrusel {
+    width: 25%; /* Hacemos que cada imagen ocupe el 25% del ancho de su contenedor */
+    height: auto;
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
+}
+
+/* Animación para el movimiento continuo */
+@keyframes deslizar {
+    0% {
+        transform: translateX(0); /* Comienza desde el inicio */
+    }
+    100% {
+        transform: translateX(-100%); /* Desplaza todas las imágenes a la izquierda */
+    }
+}
+
+.carrusel {
+    animation: deslizar 10s linear infinite; /* Desplaza las imágenes en 15 segundos, movimiento constante y sin fin */
+    display: flex; /* Usamos flexbox para el contenedor del carrusel */
+    align-items: center; /* Alineamos verticalmente las imágenes si es necesario */
+}
+
+/* Asegúrate de que el contenedor de las imágenes sea más grande que su área visible */
+.carrusel img {
+    flex-shrink: 0; /* Evita que las imágenes se encojan */
+    height: auto; /* Mantenemos las proporciones de la imagen */
+}
