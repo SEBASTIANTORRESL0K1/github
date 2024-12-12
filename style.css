@@ -158,3 +158,25 @@ video{
     flex-shrink: 0; /* Evita que las imágenes se encojan */
     height: auto; /* Mantenemos las proporciones de la imagen */
 }
+.div-pulpito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-pulpito div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.div-pulpito div img{
+    width:20%;
+    
+}
+.div-pulpito h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+.div-pulpito h2{
+    text-align: center;
+}
