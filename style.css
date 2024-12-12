@@ -1,4 +1,8 @@
-
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 @font-face {
     font-family: 'Mono Sans';
     src: url('/github/fonts/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype'); /* Ajusta el formato según el tipo de fuente */
@@ -28,6 +32,7 @@ header{
     display:flex;
     flex-direction: row;
     width:100%;
+    margin-top: 10px;
 
 }
 .logo{
@@ -123,13 +128,14 @@ video{
     display: flex; /* Usamos flexbox para colocar las imágenes en una fila */
     overflow: hidden; /* Ocultamos las imágenes que están fuera del área visible */
     width: 100%; /* Aseguramos que ocupe todo el ancho disponible */
+    gap: 100px; /* Añadimos un espacio de 100px entre las imágenes */
 }
 
 .img-carrusel {
-    width: 25%; /* Hacemos que cada imagen ocupe el 25% del ancho de su contenedor */
-    height: auto;
     flex-shrink: 0; /* Evita que las imágenes se encojan */
+    height: auto; /* Mantenemos las proporciones de la imagen */
 }
+
 
 /* Animación para el movimiento continuo */
 @keyframes deslizar {
