@@ -216,11 +216,53 @@ video{
 
 }
 .imgs section {
+
     width:50%;
     display: flex;
     flex-direction: column;
    justify-content: space-evenly;
+   align-items: flex-start;
 }
 .imgs section img {
     width:100%;
+}
+.imgs section div {
+    margin-left: 20px;
+}
+.escudo{
+    margin-top:20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.escudo div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.escudo div img{
+    width: 95px;
+}
+.fixes{
+    background:linear-gradient( #212333, #36557A);
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+.fixes section{
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.fixes section img{
+    width: 100%;
+    border-radius: 5%;
 }
