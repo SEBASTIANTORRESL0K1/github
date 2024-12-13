@@ -235,7 +235,8 @@ video{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    height: 300px;
+    justify-content: center;
 }
 .escudo div{
     width: 100%;
@@ -258,11 +259,31 @@ video{
     padding-right: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
+
 }
-.fixes section img{
+.img-container{
+    border-radius: 3%;
     width: 100%;
-    border-radius: 5%;
+    /* border:9px solid transparent; */
+    /* border-image:linear-gradient(to bottom, #a392df, #464e56) 1; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#a392df, #464e56);
 }
+.img-container img{
+    width:95%;
+    height: 94%;
+}
+.fixes section p{
+    margin-bottom: 20px;
+}
+/* .fixes section div{
+    background:linear-gradient(#A392DF,#464E56);
+    padding:10px,10px,10px,10px;
+    border-radius: 3%;
+} */
