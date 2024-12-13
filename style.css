@@ -162,6 +162,8 @@ video{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .div-pulpito div{
     display: flex;
@@ -179,4 +181,12 @@ video{
 }
 .div-pulpito h2{
     text-align: center;
+}
+.video2{
+    display: flex;
+    justify-content: center;
+}
+.video2 video{
+    width:50%;
+    border-radius: 5%;
 }
