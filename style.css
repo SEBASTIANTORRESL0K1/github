@@ -32,22 +32,32 @@ header{
     display:flex;
     flex-direction: row;
     width:100%;
-    margin-top: 10px;
+    
 
 }
 .logo{
     display: flex;
-    width:32px;
-    height: 32px;
+    width:30px;
+    height: 30px;
     margin-right: 20px;
 }
-
+.div-nav ul li div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 nav{
     width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 50px;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #151841;
+ 
 }
 div-nav{
     display: flex;
@@ -74,6 +84,7 @@ main{
     width: 100%;
 }
 .h1-main{
+    margin-top: 30px;
     width: 100%;
     text-align: center;
     font-size: 48px;
@@ -237,6 +248,7 @@ video{
     align-items: center;
     height: 300px;
     justify-content: center;
+    
 }
 .escudo div{
     width: 100%;
@@ -245,6 +257,9 @@ video{
 }
 .escudo div img{
     width: 95px;
+}
+.escudo p{
+    text-align: center;
 }
 .fixes{
     background:linear-gradient( #212333, #36557A);
