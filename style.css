@@ -399,3 +399,107 @@ footer ul li div a:hover {
     width: 30%;
     color: white;
 }
+/* Estilos generales para pantallas pequeñas (smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .div-main {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .h1-main {
+        font-size: 36px;
+    }
+
+    .div-div-main {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-signup, .a-trycopilot {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .video2 video {
+        width: 90%;
+    }
+
+    .imgs section img {
+        width: 100%;
+    }
+
+    .escudo div img {
+        width: 60px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer ul li {
+        width: 100%;
+    }
+}
+
+/* Estilos para tablets y pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .div-main {
+        padding: 40px;
+    }
+
+    .h1-main {
+        font-size: 42px;
+    }
+
+    ul {
+        font-size: small;
+    }
+
+    .div-div-main {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .btn-signup, .a-trycopilot {
+        margin-right: 15px;
+        margin-left: 15px;
+        width: auto;
+    }
+
+    video {
+        width: 80%;
+    }
+
+    .video2 video {
+        width: 70%;
+    }
+
+    .imgs section img {
+        width: 80%;
+    }
+
+    .escudo div img {
+        width: 80px;
+    }
+}
