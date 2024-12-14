@@ -159,9 +159,20 @@ video{
     justify-content: space-around;
     width:682px;
     height: 56px;
-    border-radius: 15px;
+    border-radius: 100px;
     /* border-color: white; */
-    border: 3px solid white;
+    border: .2px solid white;
+}
+.ul-div-aft-main li:hover{
+    padding:10px 10px 10px 10px;
+    width: 15%;
+    height: 100%;
+    background-color: #202334 ;
+    border:.5px solid white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .carrusel {
     display: flex; /* Usamos flexbox para colocar las imágenes en una fila */
@@ -331,12 +342,13 @@ video{
     border-radius: 3%;
 } */
  footer{
-    padding:20px 20px 20px 20px;
+    /* padding:20px 20px 20px 20px; */
     align-items: center;
  }
  footer ul{
+    padding:20px 20px 20px 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
  }
  footer ul li {
@@ -359,6 +371,7 @@ video{
     color:#344F72;
  }
  .footer2{
+    background-color: #151B23;
     width: 100%;
     display: flex;
    flex-direction: row;
