@@ -418,3 +418,57 @@ footer ul li div a:hover {
     width: 30%;
     color: white;
 }
+@media (max-width: 767px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        width: 20%; 
+        background-color: #151841; /* Fondo sólido */
+    }
+
+    nav {
+        width: 15%;
+        display: flex;
+        flex-direction: column; /* Cambia a orientación vertical */
+        justify-content: flex-start;
+        align-items: start;
+        margin: 0; /* Ajusta márgenes */
+         padding: 10px 20px 10px 20px;/* Reduce el padding */
+        background-color: #151841; /* Fondo sólido */
+        position: static;
+    }
+
+    nav ul {
+        flex-direction: column; /* Acomoda los elementos en columna */
+        
+        width: 100%; /* Ajusta al ancho del contenedor */
+        align-items: flex-start; /* Centra los elementos */
+    }
+
+    nav ul li {
+        width: 100%; /* Cada elemento ocupa el ancho completo */
+        text-align: flex-start;
+    }
+
+    nav ul li a {
+        /* display: block; */
+        width: 100%; /* Haz que los enlaces ocupen todo el ancho del contenedor */
+        font-size: 5%;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        background-color: #202334; /* Fondo al pasar el mouse */
+        border-radius: 5px;
+    }
+    #div-nav2{
+        display: none;
+    }
+    .xd{
+        display: flex;
+    }
+}
