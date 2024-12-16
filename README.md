@@ -39,7 +39,7 @@ La página web representa una versión simplificada de la plataforma GitHub, mos
 
 El proyecto ha sido publicado en GitHub Pages. Puedes visualizarlo en el siguiente enlace:
 
-[URL del Proyecto en GitHub Pages](#)
+[[URL del Proyecto en GitHub Pages](https://sebastiantorresl0k1.github.io/github/)](#)
 
 ## Autor
 
