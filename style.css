@@ -469,6 +469,40 @@ footer ul li div a:hover {
         display: none;
     }
     .xd{
+        width:100%;
         display: flex;
+    }
+    .div-video{
+        display: none;
+    }
+    .copilot{
+        display: flex;
+        flex-direction:column;
+    }
+    .copilot section{
+        margin:10px 10px 10px 10px;
+    }
+    .imgs{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imgs section{
+        width: 100%;
+        margin:10px 10px 10px 10px;
+    }
+    .acordeon{
+        width: 100%;
+    }
+    .fixes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
